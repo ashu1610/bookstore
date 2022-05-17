@@ -1,0 +1,78 @@
+
+.cart-box{
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.row{
+    align-items: center;
+    padding: 2rem 0 0;
+}
+.cart-box h3{
+    font-size: 2.5rem;
+    color: var(--green);
+}
+
+.cart-box img{
+    height: 15rem;
+}
+
+.cart-box h2{
+    font-size: 3rem;
+}
+
+ .cart-box .price{
+    text-align: end;
+}
+ .cart-box .price p{
+    font-size: 3.2rem;
+    color: var(--light-color);
+}
+
+.cart-box .price a{
+    font-size: 1.2rem;
+    color: rgb(194, 94, 94);
+    text-decoration: dotted underline;
+    cursor: pointer;
+}
+
+
+
+.cart-box .total-row{
+    text-align: end;
+    border-top: var(--border-hover);
+    margin-top: 2rem;
+}
+
+.cart-box .total-row .row{
+    align-items: baseline !important;
+}
+
+.cart-box .total-row .total{
+    color: var(--green);
+    font-size: 2.5rem;
+}
+
+.cart-box .total-row .tprice p{
+    color: var(--black);
+    font-size: 2.5rem;
+}
+
+.cart-box .total-row .tprice a{
+    font-size: 1.2rem;
+    color: rgb(194, 94, 94);
+    text-decoration: dotted underline;
+    cursor: pointer;
+}
+
+
+.cart-box input{
+    float: right;
+}
+
+.oops{
+    font-size: 2rem;
+    color: var(--green);
+    text-align: center;
+    height: 50vh;
+}
